@@ -1,0 +1,8 @@
+Financial Analysis
+-------------------------------------------------------------------------------
+Total Number of Months Analyzed: 86
+Total: $38382578.0
+Average company profit or loss per month was: $-2315.12
+Greatest Increase in Profits: Feb-2012 for ($1926159)
+Greatest Decrease in Profits: Sep-2013 for ($-2196167)
+-------------------------------------------------------------------------------

@@ -1,0 +1,18 @@
+Election Results
+-------------------------------------------------------------------------------
+Total Number of votes cast: 3521001
+-------------------------------------------------------------------------------
+name,Khan
+vote_count,2218231
+vote_percent,63.0
+name,Correy
+vote_count,704200
+vote_percent,20.0
+name,Li
+vote_count,492940
+vote_percent,14.0
+name,O'Tooley
+vote_count,105630
+vote_percent,3.0
+"The winner is: Khan, with 2218231 votes!"
+-------------------------------------------------------------------------------
