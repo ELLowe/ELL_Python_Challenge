@@ -65,8 +65,6 @@ for i in range(len(candidate_list)):
     # append the dictionary entries to the list
     new_cand_list.append(candidate_dict)
 
-print(new_cand_list)
-
 
 election_analysis_title = [["Election Results"],
                            ["-------------------------------------------------------------------------------"],
@@ -77,10 +75,9 @@ election_outcome = [[f"The winner is: {winner}, with {counted_candidates[winner]
                     ["-------------------------------------------------------------------------------"]]
 
 # Because I don't like how the regular loop printed to the terminal, I did my own loop:
-
 # Set variable for output file
 output_file = "PyPoll_final.txt"
-writer = csv.writer(datafile)
+
 
 def print_title():
 
@@ -104,11 +101,10 @@ def print_election_results():
 
         with open(output_file, "a") as datafile:
             writer = csv.writer(datafile)
-            writer.writerows(new_cand_list[i])
+            writer.writerows(new_cand_list[i].items())
 
 # create a function to print the election outcome to the terminal and append it to the txt doc
 def print_outcome():
-
     with open(output_file, "a") as datafile:
         writer = csv.writer(datafile)
         writer.writerows(election_outcome)
@@ -117,9 +113,6 @@ def print_outcome():
         print(row)
 
 
-
-
 print_title()
 print_election_results()
 print_outcome()
-
