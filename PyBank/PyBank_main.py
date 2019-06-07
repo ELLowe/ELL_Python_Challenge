@@ -1,4 +1,6 @@
-# Esther Lowe's Financial Analysis Program 06012019
+#####################################################
+# Esther Lowe's Financial Analysis Program 06012019 #
+#####################################################
 
 #First, I'll import the os and csv modules
 import os
